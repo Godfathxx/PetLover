@@ -2,8 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import PetForm from "./petform.js";
-import ConsumerForm from "./ConsumerForm.js";
 function B1() {
   return (
     <CardGroup>
@@ -55,10 +53,6 @@ const Book = () => {
   return (
     <>
       <B1 />
-      <Routes path="/booking/*">
-        <Route path="/petform" element={<PetForm />} />
-        <Route path="/ConsumerForm" element={<ConsumerForm />} />
-      </Routes>
     </>
   );
 };
