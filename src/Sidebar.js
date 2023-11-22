@@ -66,8 +66,8 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <a href="" className="btn btn-lg btn-primary px-3 d-none d-lg-block">
-            Get Consult
+          <a href="https://loginpage-virid.vercel.app/" className="btn btn-lg btn-primary px-3 d-none d-lg-block">
+            Login/Reg.
           </a>
         </div>
       </nav>
